@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">BaseProject</string>
+    <string name="app_name">FacebookAccountInfo</string>
+    <string name="name">Angelina Evsikova</string>
+    <string name="complete_story">\u0020\u0020Дополнить историю</string>
+    <string name="more">...</string>
+    <string name="school">Училась в</string>
+    <string name="schoolInfo">Школа № 91</string>
+    <string name="house">Живёт в г.</string>
+    <string name="houseInfo">Казань</string>
+    <string name="place">Из г.</string>
+    <string name="placeInfo">Казань, респ. Татарстан</string>
+    <string name="subscriptions">Подписчики:</string>
+    <string name="subscriptionsInfo">3019 человек</string>
+    <string name="dots">Смотреть раздел \"Информация\"</string>
+    <string name="edit">Редактировать общедоступную информацию</string>
+    <string name="newCity">Новый город:</string>
 </resources>
