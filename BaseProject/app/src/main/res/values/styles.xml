@@ -8,6 +8,17 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppThemeForLogin" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
     <style name="ShapeAppearanceOverlay.App.TopCornerSize10Percent" parent="">
         <item name="cornerSizeTopLeft">10%</item>
         <item name="cornerSizeTopRight">10%</item>
@@ -27,6 +38,11 @@
 
     <style name="Button3">
         <item name="android:background">@drawable/button3</item>
+    </style>
+
+    <style name="ShapeAppearance.MyApp.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
     </style>
 
 </resources>

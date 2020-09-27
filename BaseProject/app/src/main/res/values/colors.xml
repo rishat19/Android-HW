@@ -9,4 +9,5 @@
     <color name="secondaryTextColor">#1C75F5</color>
     <color name="buttonTextColor">#FFFFFF</color>
     <color name="editButtonColor">#EAF2FE</color>
+    <color name="createButtonColor">#30A24B</color>
 </resources>
