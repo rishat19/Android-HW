@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">BaseProject</string>
+    <string name="app_name">FacebookAccountInfo</string>
+    <string name="name">Angelina Evsikova</string>
+    <string name="complete_story">\u0020\u0020Дополнить историю</string>
+    <string name="more">…</string>
+    <string name="school">Учился(ась) в</string>
+    <string name="schoolInfo">Неизвестно</string>
+    <string name="house">Живёт в г.</string>
+    <string name="houseInfo">Неизвестно</string>
+    <string name="place">Из г.</string>
+    <string name="placeInfo">Неизвестно</string>
+    <string name="subscriptions">Подписчики:</string>
+    <string name="subscriptionsInfo">0 человек</string>
+    <string name="dots">Смотреть раздел \"Информация\"</string>
+    <string name="edit">Редактировать общедоступную информацию</string>
+    <string name="newCity">Новый город:</string>
+    <string name="email">Электронный адрес</string>
+    <string name="languages">English • Українська • Ещё…</string>
+    <string name="nameLogin">Имя Фамилия</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Войти</string>
+    <string name="or">или</string>
+    <string name="create">Создать аккаунт Facebook</string>
 </resources>
