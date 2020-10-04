@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BaseProject</string>
+    <string name="button">Кнопка</string>
+    <string name="text">Какой-то текст</string>
+    <string name="button1">Кнопка №1</string>
+    <string name="button2">Кнопка №2</string>
 </resources>
