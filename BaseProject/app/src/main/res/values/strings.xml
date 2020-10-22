@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">BaseProject</string>
+    <string name="app_name">RecyclerView</string>
+    <string name="flag">Флаг</string>
+    <string name="capital">Capital</string>
+    <string name="language">Official languages</string>
+    <string name="area">Area (square kilometers)</string>
+    <string name="population">Population</string>
+    <string name="currency">Currency</string>
+    <string name="description">Description</string>
 </resources>
