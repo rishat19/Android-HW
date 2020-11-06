@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">BaseProject</string>
+    <string name="app_name">BottomNavigationWithLists</string>
+    <string name="text">Текст</string>
+    <string name="list">Список</string>
+    <string name="cards">Карточки</string>
+    <string name="first_fragment_text">Нажмите на \"Список\" или на \"Карточки\", чтобы увидеть информацию о странах</string>
+    <string name="country_name">The name of the country:</string>
+    <string name="country_capital">The capital of country:</string>
+    <string name="country_position">Position in the list:</string>
 </resources>
