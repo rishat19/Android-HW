@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">BaseProject</string>
+    <string name="app_name">MusicPlayer</string>
+    <string name="cover">Обложка</string>
+    <string name="prev">Предыдущий трек</string>
+    <string name="next">Следующий трек</string>
+    <string name="play">Воспроизвести трек</string>
+    <string name="pause">Поставить трек на паузу</string>
+    <string name="channel_name">MusicPlayer</string>
+    <string name="channel_description">Notification channel for MusicPlayer</string>
 </resources>
