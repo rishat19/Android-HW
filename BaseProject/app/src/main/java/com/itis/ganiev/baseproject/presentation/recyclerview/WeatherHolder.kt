@@ -1,4 +1,4 @@
-package com.itis.ganiev.baseproject
+package com.itis.ganiev.baseproject.presentation.recyclerview
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.itis.ganiev.baseproject.R
+import com.itis.ganiev.baseproject.data.database.entities.City
+import com.itis.ganiev.baseproject.data.database.entities.WeatherEntity
 
 class WeatherHolder(
     itemView: View,
@@ -15,9 +18,9 @@ class WeatherHolder(
     private val city: TextView = itemView.findViewById(R.id.tv_city)
     private val temperature: TextView = itemView.findViewById(R.id.tv_temperature)
 
-    fun bind(weatherInfo: WeatherListResponse.WeatherInfo) {
+    fun bind(weatherInfo: City) {
         city.text = weatherInfo.name
-        val wTemperature = weatherInfo.main.temp.toInt()
+        val wTemperature = weatherInfo.temperature.toInt()
         temperature.text = itemView.resources.getString(R.string.celsius, wTemperature.toString())
         when (wTemperature) {
             in 20..1000 -> temperature.setTextColor(ContextCompat.getColor(itemView.context, android.R.color.holo_red_dark))

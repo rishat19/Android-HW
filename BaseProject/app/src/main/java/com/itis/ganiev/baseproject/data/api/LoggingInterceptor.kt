@@ -1,5 +1,6 @@
-package com.itis.ganiev.baseproject
+package com.itis.ganiev.baseproject.data.api
 
+import com.itis.ganiev.baseproject.BuildConfig
 import okhttp3.Interceptor
 import okhttp3.Response
 import okhttp3.logging.HttpLoggingInterceptor

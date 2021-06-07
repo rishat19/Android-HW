@@ -1,4 +1,4 @@
-package com.itis.ganiev.baseproject
+package com.itis.ganiev.baseproject.data.api.response
 
 import com.google.gson.annotations.SerializedName
 
@@ -86,7 +86,7 @@ data class WeatherResponse(
         @SerializedName("deg")
         var deg: Int,
         @SerializedName("speed")
-        var speed: Int
+        var speed: Double
     )
 
 }

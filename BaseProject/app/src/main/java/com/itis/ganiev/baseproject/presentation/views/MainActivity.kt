@@ -1,15 +1,13 @@
-package com.itis.ganiev.baseproject
+package com.itis.ganiev.baseproject.presentation.views
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.lifecycleScope
-import com.google.android.material.snackbar.Snackbar
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.coroutines.launch
+import com.itis.ganiev.baseproject.R
+import dagger.hilt.android.AndroidEntryPoint
+import moxy.MvpAppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+@AndroidEntryPoint
+class MainActivity : MvpAppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

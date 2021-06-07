@@ -1,20 +1,22 @@
-package com.itis.ganiev.baseproject
+package com.itis.ganiev.baseproject.data.api
 
+import com.itis.ganiev.baseproject.data.api.response.WeatherListResponse
+import com.itis.ganiev.baseproject.data.api.response.WeatherResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface WeatherApi {
 
-    @GET("weather?units=metric&lang=ru")
+    @GET("weather")
     suspend fun getWeather(
         @Query("q") cityName: String
-    ) : WeatherResponse
+    ): WeatherResponse
 
-    @GET("find?units=metric&lang=ru")
+    @GET("find")
     suspend fun getWeatherList(
         @Query("lat") latitude: Double,
         @Query("lon") longitude: Double,
         @Query("cnt") count: Int
-    ) : WeatherListResponse
+    ): WeatherListResponse
 
 }
