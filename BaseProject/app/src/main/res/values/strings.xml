@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">BaseProject</string>
+    <string name="app_name">WeatherForecaster</string>
+    <string name="search_hint">Найти населённый пункт…</string>
+    <string name="celsius">%1$s°С</string>
+    <string name="speed">%1$s м/с</string>
+    <string name="hum">%1$s%</string>
+    <string name="weather_background">Фон</string>
+    <string name="wind">"Ветер:"</string>
+    <string name="humidity">Влажность:</string>
+    <string name="feel">Ощущается как:</string>
 </resources>
